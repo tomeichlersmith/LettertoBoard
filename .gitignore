@@ -1,0 +1,7 @@
+
+#Processing Files
+*.aux
+*.log
+*.pdf
+*.synctex.gz
+
