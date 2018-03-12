@@ -1,0 +1,49 @@
+
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+
+\pagestyle{empty} %No header/footer or page numbers
+
+\newcommand{\signers}{
+	\begin{table}[h]
+	\raggedleft
+	\begin{tabular}{rr}
+		Tom Eichlersmith & 4th Year Physics and Mathematics Major \\
+		Ariya Ishida & 4th Year Chemistry and Physics Major \\
+		Opeyemi Arogundade & 4th Year Physics and Chemistry Major \\
+		Emily Anderson & 4th Year Studio Art and Social Justice Flex Major
+	\end{tabular}
+	\end{table}
+}
+
+\newcommand{\opening}{
+	\vskip 5mm
+	An open letter to staff, faculty, and members of the Board of Directors of Hamline:
+	\vskip 5mm
+}
+
+\newcommand{\signatures}{
+	\vskip 5mm
+	\begin{table}
+	\begin{tabular}{@{}p{0.5\textwidth}p{0.5\textwidth}@{}}
+		\hrulefill & \hrulefill \\
+		Tom Eichlersmith & Ariya Ishida \\
+		& \\
+		\hrulefill & \hrulefill \\
+		Emily Anderson & Opeyemi Arogundade  \\
+	\end{tabular}
+	\end{table}
+}
+
+\begin{document}
+
+\signers
+
+\opening
+
+Blah
+
+\signatures
+
+\end{document}
